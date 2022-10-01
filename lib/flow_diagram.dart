@@ -90,11 +90,6 @@ class _DiagramState extends State<Diagram> {
               margin: EdgeInsets.all(30.0),
               child: NeumorphicButton(
                 onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (BuildContext context) => Info(),
-                          settings: RouteSettings(arguments: 'data')));
                 },
                 style: NeumorphicStyle(
                   lightSource: LightSource.bottom,
